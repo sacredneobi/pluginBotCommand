@@ -1,0 +1,23 @@
+{
+  "name": "plugin",
+  "caption": "botCommand",
+  "version": "0.0.1",
+  "description": "Плагин для команд бота \"botCommand\"",
+  "icon": "commands",
+  "main": "index.js",
+  "typeModule": "botCommand",
+  "url": "",
+  "scripts": {
+    "start": "nodemon index.js isSingle"
+  },
+  "keywords": [
+    "module",
+    "sacred",
+    "sacred app's"
+  ],
+  "author": "SACRED APP's",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
